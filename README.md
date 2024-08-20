@@ -20,15 +20,15 @@ Switch-case:A switch case statement is a control flow structure that allows you 
    - Print the options for addition, subtraction, multiplication, and division.
 
 4. **Read User Choice**:
-   - Input the user's choice and store it in the variable `choice`.
-   - Input two numbers: prompt the user to enter the first number and store it in `a`, then prompt for the second number and store it in `b`.
+   - Input the user's choice and store it in the variable choice.
+   - Input two numbers: prompt the user to enter the first number and store it in  a , then prompt for the second number and store it in `b`.
 
 5. **Perform Operation Based on Choice**:
-   - Use a switch statement to determine the operation based on `choice`:
-     - **Case 1 (Addition)**: Compute `x = a + b` and display the result.
-     - **Case 2 (Subtraction)**: Compute `y = a - b` and display the result.
-     - **Case 3 (Multiplication)**: Compute `z = a * b` and display the result.
-     - **Case 4 (Division)**: Check if `b` is zero. If it is, display a "Divide by zero error" message. Otherwise, compute `q = a / b` and display the result.
+   - Use a switch statement to determine the operation based on choice:
+     - **Case 1 (Addition)**: Compute x = a + b and display the result.
+     - **Case 2 (Subtraction)**: Compute y = a - b and display the result.
+     - **Case 3 (Multiplication)**: Compute z = a * b and display the result.
+     - **Case 4 (Division)**: Check if b is zero. If it is, display a "Divide by zero error" message. Otherwise, compute q = a / b and display the result.
 
 6. **Default Case**:
    - Display an error message if the input choice is invalid.
